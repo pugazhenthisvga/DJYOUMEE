@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		03D175E529FBBFE2001D1EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D175E429FBBFE2001D1EE1 /* AppDelegate.swift */; };
 		03D175E729FBBFE2001D1EE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D175E629FBBFE2001D1EE1 /* SceneDelegate.swift */; };
-		03D175E929FBBFE2001D1EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D175E829FBBFE2001D1EE1 /* ViewController.swift */; };
 		03D175EC29FBBFE2001D1EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D175EA29FBBFE2001D1EE1 /* Main.storyboard */; };
 		03D175EE29FBBFE3001D1EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D175ED29FBBFE3001D1EE1 /* Assets.xcassets */; };
 		03D175F129FBBFE3001D1EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D175EF29FBBFE3001D1EE1 /* LaunchScreen.storyboard */; };
+		03D1760329FBC005001D1EE1 /* CreatePartyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D175F829FBC003001D1EE1 /* CreatePartyController.swift */; };
+		03D1760429FBC005001D1EE1 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D175F929FBC003001D1EE1 /* OTPViewController.swift */; };
+		03D1760529FBC005001D1EE1 /* AddPlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D175FA29FBC003001D1EE1 /* AddPlaylistController.swift */; };
+		03D1760629FBC005001D1EE1 /* LoginControllerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D175FB29FBC004001D1EE1 /* LoginControllerNew.swift */; };
+		03D1760729FBC005001D1EE1 /* AddGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D175FC29FBC004001D1EE1 /* AddGuestViewController.swift */; };
+		03D1760829FBC005001D1EE1 /* ViewPlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D175FD29FBC004001D1EE1 /* ViewPlaylistController.swift */; };
+		03D1760929FBC005001D1EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D175FE29FBC004001D1EE1 /* ViewController.swift */; };
+		03D1760A29FBC005001D1EE1 /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D175FF29FBC004001D1EE1 /* VideoDetailViewController.swift */; };
+		03D1760B29FBC005001D1EE1 /* SearchVideosTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1760029FBC005001D1EE1 /* SearchVideosTableView.swift */; };
+		03D1760C29FBC005001D1EE1 /* ViewGuestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1760129FBC005001D1EE1 /* ViewGuestController.swift */; };
+		03D1760D29FBC005001D1EE1 /* VideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1760229FBC005001D1EE1 /* VideoPlayerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03D175E129FBBFE2001D1EE1 /* DJYOUMEE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJYOUMEE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D175E429FBBFE2001D1EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03D175E629FBBFE2001D1EE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03D175E829FBBFE2001D1EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03D175EB29FBBFE2001D1EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03D175ED29FBBFE3001D1EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03D175F029FBBFE3001D1EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03D175F229FBBFE3001D1EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D175F829FBC003001D1EE1 /* CreatePartyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePartyController.swift; sourceTree = "<group>"; };
+		03D175F929FBC003001D1EE1 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		03D175FA29FBC003001D1EE1 /* AddPlaylistController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlaylistController.swift; sourceTree = "<group>"; };
+		03D175FB29FBC004001D1EE1 /* LoginControllerNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginControllerNew.swift; sourceTree = "<group>"; };
+		03D175FC29FBC004001D1EE1 /* AddGuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGuestViewController.swift; sourceTree = "<group>"; };
+		03D175FD29FBC004001D1EE1 /* ViewPlaylistController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPlaylistController.swift; sourceTree = "<group>"; };
+		03D175FE29FBC004001D1EE1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03D175FF29FBC004001D1EE1 /* VideoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
+		03D1760029FBC005001D1EE1 /* SearchVideosTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVideosTableView.swift; sourceTree = "<group>"; };
+		03D1760129FBC005001D1EE1 /* ViewGuestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewGuestController.swift; sourceTree = "<group>"; };
+		03D1760229FBC005001D1EE1 /* VideoPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +78,18 @@
 			children = (
 				03D175E429FBBFE2001D1EE1 /* AppDelegate.swift */,
 				03D175E629FBBFE2001D1EE1 /* SceneDelegate.swift */,
-				03D175E829FBBFE2001D1EE1 /* ViewController.swift */,
 				03D175EA29FBBFE2001D1EE1 /* Main.storyboard */,
+				03D175FB29FBC004001D1EE1 /* LoginControllerNew.swift */,
+				03D175F929FBC003001D1EE1 /* OTPViewController.swift */,
+				03D175FE29FBC004001D1EE1 /* ViewController.swift */,
+				03D175F829FBC003001D1EE1 /* CreatePartyController.swift */,
+				03D175FC29FBC004001D1EE1 /* AddGuestViewController.swift */,
+				03D1760129FBC005001D1EE1 /* ViewGuestController.swift */,
+				03D175FA29FBC003001D1EE1 /* AddPlaylistController.swift */,
+				03D175FD29FBC004001D1EE1 /* ViewPlaylistController.swift */,
+				03D1760029FBC005001D1EE1 /* SearchVideosTableView.swift */,
+				03D175FF29FBC004001D1EE1 /* VideoDetailViewController.swift */,
+				03D1760229FBC005001D1EE1 /* VideoPlayerController.swift */,
 				03D175ED29FBBFE3001D1EE1 /* Assets.xcassets */,
 				03D175EF29FBBFE3001D1EE1 /* LaunchScreen.storyboard */,
 				03D175F229FBBFE3001D1EE1 /* Info.plist */,
@@ -138,9 +168,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D175E929FBBFE2001D1EE1 /* ViewController.swift in Sources */,
+				03D1760B29FBC005001D1EE1 /* SearchVideosTableView.swift in Sources */,
+				03D1760829FBC005001D1EE1 /* ViewPlaylistController.swift in Sources */,
+				03D1760429FBC005001D1EE1 /* OTPViewController.swift in Sources */,
+				03D1760D29FBC005001D1EE1 /* VideoPlayerController.swift in Sources */,
 				03D175E529FBBFE2001D1EE1 /* AppDelegate.swift in Sources */,
+				03D1760A29FBC005001D1EE1 /* VideoDetailViewController.swift in Sources */,
+				03D1760929FBC005001D1EE1 /* ViewController.swift in Sources */,
+				03D1760529FBC005001D1EE1 /* AddPlaylistController.swift in Sources */,
+				03D1760329FBC005001D1EE1 /* CreatePartyController.swift in Sources */,
+				03D1760629FBC005001D1EE1 /* LoginControllerNew.swift in Sources */,
+				03D1760729FBC005001D1EE1 /* AddGuestViewController.swift in Sources */,
 				03D175E729FBBFE2001D1EE1 /* SceneDelegate.swift in Sources */,
+				03D1760C29FBC005001D1EE1 /* ViewGuestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +342,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pugazh.DJYOUMEE.DJYOUMEE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +373,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pugazh.DJYOUMEE.DJYOUMEE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
